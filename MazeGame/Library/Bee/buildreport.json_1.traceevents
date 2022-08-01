@@ -1,0 +1,499 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1654784195277076, "dur": 23245171, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1654784195280186, "dur": 40877, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1654784195321244, "dur": 127004, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1654784195448302, "dur": 518210, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1654784195966515, "dur": 22545480, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1654784218512063, "dur": 10182, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1654784238310951, "dur": 5082141, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1654784238311402, "dur": 10982, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1654784238322388, "dur": 78626, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1654784238401016, "dur": 1126945, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1654784239527964, "dur": 3857494, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1654784243385461, "dur": 7628, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1654784243394031, "dur": 44, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1654784239197302, "dur": 300676, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1654784239198717, "dur": 99654, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1654784239462970, "dur": 9121, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1654784239472099, "dur": 25853, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1654784239473549, "dur": 23050, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1654784239509313, "dur": 2615, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1654784239507017, "dur": 4977, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1654784243394356, "dur": 580, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1654784239592948, "dur":2411, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654784239595378, "dur":83, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1654784239595479, "dur":27, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1654784239595508, "dur":298, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1654784239595851, "dur":1012, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654784239596863, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654784243340940, "dur":123, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654784243341063, "dur":39, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654784243341102, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654784243341109, "dur":20, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654784243341129, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654784243341134, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654784243341149, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654784243341153, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654784243341167, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654784243341192, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654784243341386, "dur":2975, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1654784239596546, "dur":331, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784239596880, "dur":8287, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784239605191, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1654784239605198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784239607411, "dur":646, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1654784239608062, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1654784239608138, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784239608391, "dur":11315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1654784239619709, "dur":11900, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1654784239631613, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784239631626, "dur":1627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1654784239633352, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1654784239633555, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784239634150, "dur":2755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1654784239636975, "dur":10280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1654784239647263, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784239647440, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1654784239648798, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1654784239648971, "dur":666, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784239649652, "dur":6655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1654784239656464, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1654784239656716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784239656727, "dur":364088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1654784240020889, "dur":396401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784240417296, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784240417306, "dur":42921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784240460296, "dur":36899, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784240497203, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784240497218, "dur":3833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784240501108, "dur":46596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784240547712, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784240547725, "dur":1752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784240549535, "dur":30798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784240580341, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784240580354, "dur":23700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784240604129, "dur":29735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784240633871, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784240633885, "dur":1590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784240635532, "dur":49487, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784240685026, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784240685049, "dur":3531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784240688656, "dur":180223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784240868885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784240868896, "dur":1961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784240870910, "dur":40337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784240911285, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784240911299, "dur":1525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784240912891, "dur":36925, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784240949823, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784240949836, "dur":2181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784240952075, "dur":26462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784240978544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784240978557, "dur":2215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784240980872, "dur":29772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784241010652, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784241010667, "dur":1702, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784241012449, "dur":51717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784241064173, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784241064186, "dur":9789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784241074048, "dur":51090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784241125145, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784241125158, "dur":28417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784241153641, "dur":26255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784241179904, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784241179921, "dur":1682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784241181714, "dur":84696, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784241266433, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784241266449, "dur":1846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784241268359, "dur":25791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784241294157, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784241294171, "dur":1530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784241295761, "dur":58391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784241354160, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784241354173, "dur":2023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784241356254, "dur":92036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784241448297, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784241448309, "dur":18301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784241466677, "dur":123604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784241590289, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784241590303, "dur":4063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784241594592, "dur":742159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784242336757, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784242336767, "dur":2621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784242339448, "dur":214112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784242553598, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784242553611, "dur":1591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784242555261, "dur":44943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784242600211, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784242600224, "dur":1568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784242601848, "dur":251653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784242853512, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784242853529, "dur":4444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784242858026, "dur":133258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784242991290, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784242991302, "dur":2652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784242994019, "dur":209778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784243203802, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1654784243203812, "dur":1572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1654784243205438, "dur":135489, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784239596546, "dur":339, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784239596886, "dur":8316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784239605203, "dur":32998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1654784239638209, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784239638395, "dur":15423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1654784239653891, "dur":13507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1654784239667408, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784239667427, "dur":73297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1654784239740806, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1654784239740964, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784239741056, "dur":65939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1654784239807057, "dur":15456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1654784239822519, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784239822533, "dur":1429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1654784239824025, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1654784239824171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784239824183, "dur":10300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1654784239834548, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1654784239834715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784239834727, "dur":6263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1654784239841060, "dur":201941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784240043009, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784240050131, "dur":37958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784240088492, "dur":180733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1654784240269247, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784240269257, "dur":4355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1654784240273691, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1654784240273855, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784240274716, "dur":35287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1654784240310084, "dur":25101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784240335194, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784240335760, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784240337246, "dur":36502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784240373756, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784240373906, "dur":1421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784240375399, "dur":67733, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784240443142, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784240443158, "dur":1851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784240445103, "dur":77546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784240522656, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784240522669, "dur":1600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784240524322, "dur":35755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784240560086, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784240560100, "dur":1354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784240561515, "dur":114019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784240675542, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784240675556, "dur":1756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784240677372, "dur":186304, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784240863683, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784240863696, "dur":4501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784240868268, "dur":56343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784240924621, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784240924638, "dur":1583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784240926314, "dur":70551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784240996872, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784240996891, "dur":11319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784241008272, "dur":74706, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784241082985, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784241083002, "dur":2117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784241085175, "dur":126734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784241211944, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784241211963, "dur":5219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784241217253, "dur":43447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784241260708, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784241260724, "dur":6946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784241267789, "dur":36538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784241304334, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784241304346, "dur":8510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784241312920, "dur":54584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784241367512, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784241367525, "dur":3814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784241371406, "dur":170674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784241542086, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784241542099, "dur":1793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784241543947, "dur":110979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784241654934, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784241654964, "dur":1471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784241656504, "dur":64009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784241720520, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784241720532, "dur":1818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784241722418, "dur":5549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784241728022, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784241728037, "dur":2055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784241730154, "dur":33571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784241763732, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784241763745, "dur":2368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784241766180, "dur":587749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784242353935, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784242353947, "dur":5020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784242359038, "dur":99994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784242459038, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784242459051, "dur":1663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784242460786, "dur":35263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784242496056, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784242496070, "dur":2116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784242498251, "dur":197235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784242695493, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784242695507, "dur":2107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784242697699, "dur":61851, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784242759558, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784242759572, "dur":1507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784242761142, "dur":182357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784242943505, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784242943518, "dur":4416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784242948007, "dur":53731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784243001745, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784243001815, "dur":3068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784243004937, "dur":3524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784243008467, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784243008480, "dur":1489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1654784243010023, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1654784243010311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784243010774, "dur":1187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1654784243012019, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1654784243012086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784243012153, "dur":1487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1654784243013704, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1654784243013762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784243013773, "dur":1831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1654784243015659, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1654784243015709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784243015719, "dur":1330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1654784243017104, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1654784243017271, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784243017282, "dur":1285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1654784243018623, "dur":1320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1654784243019954, "dur":13, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784243019979, "dur":1197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1654784243021235, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1654784243021303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784243021312, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/level0.resS" }}
+,{ "pid":12345, "tid":2, "ts":1654784243022581, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1654784243022638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784243022648, "dur":1254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1654784243023956, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1654784243024017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784243024027, "dur":1365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":2, "ts":1654784243025451, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1654784243025502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784243025511, "dur":1176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1654784243026742, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1654784243026905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1654784243026915, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1654784243028077, "dur":312863, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784239596630, "dur":265, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784239596895, "dur":8300, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784239605198, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1654784239605415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784239608696, "dur":10635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1654784239619398, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1654784239619571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784239619861, "dur":11396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1654784239631323, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1654784239631492, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784239631506, "dur":369591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1654784240001177, "dur":236674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784240237859, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784240264302, "dur":30917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784240295339, "dur":146781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784240442127, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784240442142, "dur":2071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784240444274, "dur":29817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784240474098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784240474110, "dur":1321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784240475494, "dur":61178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784240536679, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784240536692, "dur":1592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784240538345, "dur":37288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784240575640, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784240575653, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784240577195, "dur":110674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784240687879, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784240687897, "dur":11568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784240699524, "dur":26116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784240725647, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784240725662, "dur":1614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784240727346, "dur":46028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784240773381, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784240773428, "dur":1839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784240775326, "dur":48347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784240823681, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784240823697, "dur":1889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784240825642, "dur":26477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784240852126, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784240852139, "dur":2348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784240854547, "dur":76709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784240931263, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784240931277, "dur":12922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784240944264, "dur":6079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784240950351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784240950366, "dur":2422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784240952888, "dur":25649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784240978544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784240978557, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784240980406, "dur":69012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784241049426, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784241049439, "dur":1473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784241050963, "dur":35571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784241086543, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784241086564, "dur":46571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784241133207, "dur":32210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784241165424, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784241165443, "dur":2652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784241168158, "dur":27483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784241195648, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784241195669, "dur":15031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784241210759, "dur":68084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784241278849, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784241278862, "dur":16675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784241295669, "dur":31091, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784241326767, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784241328849, "dur":10379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784241339290, "dur":32917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784241372213, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784241372227, "dur":3232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784241375527, "dur":51806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784241427340, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784241427352, "dur":9645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784241437077, "dur":40164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784241477248, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784241477262, "dur":7135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784241484568, "dur":132701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784241617275, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784241617289, "dur":2068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784241619423, "dur":2453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784241621883, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784241621896, "dur":4159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784241626115, "dur":65074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784241691196, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784241691209, "dur":1464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784241692739, "dur":77277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784241770022, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784241770035, "dur":1982, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784241772075, "dur":576396, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784242348478, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784242348491, "dur":2009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784242350557, "dur":213235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784242563799, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784242563811, "dur":2509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784242566380, "dur":283106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784242849492, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784242849504, "dur":4676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784242854241, "dur":127495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784242981747, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784242981761, "dur":2351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784242984167, "dur":351574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784243335745, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1654784243335754, "dur":5072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1654784243340895, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":3, "ts":1654784243340899, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784239596678, "dur":227, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784239596905, "dur":8283, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784239605191, "dur":50877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1654784239656074, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784239656983, "dur":1328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1654784239658371, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1654784239658520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784239659277, "dur":80970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1654784239740314, "dur":78047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1654784239818368, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784239818382, "dur":1516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1654784239819964, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1654784239820138, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784239820152, "dur":271754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1654784240091968, "dur":241263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame.exe" }}
+,{ "pid":12345, "tid":4, "ts":1654784240333239, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784240333250, "dur":5631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame.exe" }}
+,{ "pid":12345, "tid":4, "ts":1654784240339091, "dur":54083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784240393196, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784240393210, "dur":3150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784240396421, "dur":61001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784240457428, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784240457458, "dur":16159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784240473677, "dur":166283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784240639967, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784240639980, "dur":1925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784240641965, "dur":56763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784240698736, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784240698753, "dur":7607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784240706427, "dur":48645, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784240755079, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784240755091, "dur":1406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784240756555, "dur":133964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784240890526, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784240890541, "dur":3997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784240894602, "dur":28701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784240923310, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784240923322, "dur":1624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784240925031, "dur":32704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784240957746, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784240957762, "dur":10602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784240968424, "dur":62089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241030520, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784241030541, "dur":13485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241044105, "dur":30952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241075065, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784241075078, "dur":9927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241085068, "dur":61762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241146836, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784241146849, "dur":20476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241167490, "dur":29977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241197474, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784241197489, "dur":2464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241200013, "dur":29924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241229943, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784241229956, "dur":5562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241235575, "dur":26437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241262019, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784241262032, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241263525, "dur":154081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241417613, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784241417626, "dur":23238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241440924, "dur":81298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241522229, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784241522242, "dur":18290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241540593, "dur":97333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241637933, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784241637947, "dur":1474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241639489, "dur":47133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241686635, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784241686649, "dur":1882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241688595, "dur":4533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241693132, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784241693144, "dur":1469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241694658, "dur":1661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241696327, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784241696342, "dur":1453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241697854, "dur":1498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241699359, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784241699372, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241700843, "dur":28369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241729219, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784241729232, "dur":1306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241730594, "dur":1502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241732103, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784241732117, "dur":1524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784241733697, "dur":602805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784242336508, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784242336520, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784242338005, "dur":113776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784242451788, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784242451801, "dur":1684, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784242453542, "dur":107229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784242560777, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784242560790, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784242562325, "dur":284236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784242846598, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784242846613, "dur":1957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784242848636, "dur":181032, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784243029780, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1654784243029792, "dur":4207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ertu1/OneDrive/Masast/Oyunlarm/MazeGame/MazeGame_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1654784243034057, "dur":306890, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1654784243347403, "dur":3298, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1654784243395031, "dur": 917, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1654784243394002, "dur": 1978, "ph": "X", "name": "Write chrome-trace events", "args": {} },
